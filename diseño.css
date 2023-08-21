@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    background-color: #04df88aa;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.logo {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 100px; 
+    background-color:#04df88aa;
+}
+
+footer {
+    background-color: #04df88aa;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
